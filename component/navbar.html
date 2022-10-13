@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./view.css" />
+
+    <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link href="https://unpkg.com/aos@2.3.0/dist/aos.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+    />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/sharer.js/latest/sharer.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="headder-top">
+        <div class="wrappe">
+          <div class="button">
+            <div class="icon">
+              <i class="fab fa-facebook-f"></i>
+            </div>
+            <span>Facebook</span>
+          </div>
+          <div class="button">
+            <div class="icon">
+              <i class="fab fa-twitter"></i>
+            </div>
+            <span>Twitter</span>
+          </div>
+          <div class="button">
+            <div class="icon">
+              <i class="fab fa-instagram"></i>
+            </div>
+            <span>Instagram</span>
+          </div>
+
+          <div class="button">
+            <div class="icon">
+              <i class="fab fa-youtube"></i>
+            </div>
+            <span>YouTube</span>
+          </div>
+        </div>
+
+        <div class="booking">
+          <button type="button" class="bookingb">Book Appointment</button>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <div id="real-estate-navbar" class="wrapper">
+        <div class="logo">
+          <img src="../img/logo1.png" width="150px" height="40px" alt="" />
+        </div>
+        <input type="radio" name="slider" id="menu-btn" />
+        <input type="radio" name="slider" id="close-btn" />
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"
+            ><i class="fas fa-times"></i
+          ></label>
+          <li><a href="./index.php">Home</a></li>
+          <li>
+            <a href="#" class="desktop-item">Pages</a>
+            <input type="checkbox" id="showDrop" />
+            <label for="showDrop" class="mobile-item">Blog</label>
+            <ul class="drop-menu">
+              <li><a href="./form.php">About Us</a></li>
+              <li><a href="./appointment.php">Appointment</a></li>
+              <li><a href="./faq.php">FAQ</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="./gallary.php" class="desktop-item">Gallary</a>
+            <input type="checkbox" id="showDrop" />
+            <label for="showDrop" class="mobile-item">Gallary</label>
+            <ul class="drop-menu">
+              <li><a href="./gallary.php">Standard</a></li>
+              <li><a href="./gallary.php">Basic</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Tour</a></li>
+          <li>
+            <a href="#" class="desktop-item">Blog</a>
+            <input type="checkbox" id="showDrop" />
+            <label for="showDrop" class="mobile-item">Blog</label>
+            <ul class="drop-menu">
+              <li><a href="./feature.php">Feature</a></li>
+              <li><a href="./blog.php">List: Left</a></li>
+              <li><a href="./blog.php">List: Right</a></li>
+              <li><a href="./blogdetail.php">Details: Left</a></li>
+              <li><a href="./blogdetail.php">Details: Right</a></li>
+            </ul>
+          </li>
+          <li><a href="./contact.php">Contact Us</a></li>
+        </ul>
+        <label for="menu-btn" class="btn menu-btn"
+          ><i class="fas fa-bars"></i
+        ></label>
+      </div>
+    </nav>
+  </body>
+</html>
